@@ -1,0 +1,25 @@
+    {
+        "form": [
+            {
+                "heading": "Login",
+                "contents": [
+                    {
+                        "type": "text",
+                        "name": "Email",
+                        "id": "Email",
+                        "validation": "required|not:Admin",
+                        "label": "Email",
+                        "placeholder": "Enter your Email"
+                    },
+                    {
+                        "type": "text",
+                        "name": "Password",
+                        "id": "Password",
+                        "validation": "required|not:Admin",
+                        "label": "Password",
+                        "placeholder": "Enter your Password"
+                    }
+                ]
+            }
+        ]
+    }
