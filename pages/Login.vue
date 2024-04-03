@@ -106,7 +106,7 @@ definePageMeta({
          <FormKit type="submit" label="Login" />
     </FormKit>
 
-    <!-- -------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------->
 
     <FormKit
         type="form"
@@ -142,9 +142,7 @@ definePageMeta({
         <FormKit type="submit" label="Magic Link" @click="flag = !flag"/>
     </div>    
     <NuxtLink class="flex justify-center pl-5" to="/signup">New user? Signup</NuxtLink>
-<a class="btn btn-social btn-linkedin">
-    <span class="fa fa-linkedin"></span>Linkedin
-</a>
+
 </div>
 
   </div>

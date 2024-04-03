@@ -14,6 +14,7 @@ async function signUpNewUser(form) {
     
   })
   console.log('data', data);  console.log('error', error);
+  alert("SignUp successful")
 }
 
 
@@ -82,9 +83,7 @@ definePageMeta({
           class="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700"
         />
       </FormKit>
-      <div v-if="submitted" class="mt-4">
-        <h2 class="text-xl text-green-500">Submission successful!</h2>
-      </div>
+      
     <NuxtLink to="/Login">Alredy have account?Login</NuxtLink>
     </div>
   </div>
